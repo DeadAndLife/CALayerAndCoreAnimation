@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ci1-vs-aCK">
+                                <rect key="frame" x="20" y="41" width="89" height="30"/>
+                                <state key="normal" title="Border"/>
+                                <connections>
+                                    <action selector="BorderBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dDU-Wl-Lfw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhe-Sn-dHD">
+                                <rect key="frame" x="183" y="41" width="87" height="30"/>
+                                <state key="normal" title="BorderColor"/>
+                                <connections>
+                                    <action selector="BorderColorBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z4H-KC-Fap"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzV-I5-bza">
+                                <rect key="frame" x="20" y="85" width="89" height="30"/>
+                                <state key="normal" title="opacity"/>
+                                <connections>
+                                    <action selector="opacityBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FJu-MT-Ewl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wb6-BS-YXL">
+                                <rect key="frame" x="183" y="93" width="103" height="30"/>
+                                <state key="normal" title="Corner Radius"/>
+                                <connections>
+                                    <action selector="radiusBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WsT-kK-Lbs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gP8-eT-Lnr">
+                                <rect key="frame" x="36" y="123" width="61" height="30"/>
+                                <state key="normal" title="shadow"/>
+                                <connections>
+                                    <action selector="shadowBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I5g-3o-4Kv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vme-ro-dfc">
+                                <rect key="frame" x="183" y="131" width="87" height="30"/>
+                                <state key="normal" title="maskLayer"/>
+                                <connections>
+                                    <action selector="maskBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WqQ-2a-zbM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oq4-ra-7vZ">
+                                <rect key="frame" x="20" y="171" width="93" height="30"/>
+                                <state key="normal" title="AddSubLayer"/>
+                                <connections>
+                                    <action selector="addSubLayerBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5eW-dT-JZe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1K-xU-MxD">
+                                <rect key="frame" x="172" y="178" width="108" height="30"/>
+                                <state key="normal" title="MaskToBound"/>
+                                <connections>
+                                    <action selector="maskToboundsBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="68y-fL-yT2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="337"/>
+        </scene>
+    </scenes>
+</document>
